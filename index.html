@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Electrodomésticos Talca - 27 con 5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400?text=Tienda+de+Electrodomesticos+Talca');
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .producto {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: calc(33% - 20px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .producto img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        @media (max-width: 768px) {
+            .producto {
+                width: calc(50% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Electrodomésticos Talca</h1>
+        <p>Tu mejor opción en electrodomésticos - Ubicados en 27 con 5, Talca</p>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="inicio" class="hero">
+        <div>
+            <h2>Bienvenidos a nuestra tienda</h2>
+            <p>Encuentra los mejores electrodomésticos con precios competitivos. ¡Visítanos!</p>
+        </div>
+    </section>
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x200?text=Refrigerador" alt="Refrigerador">
+                <h3>Refrigerador LG</h3>
+                <p>Capacidad de 400L, eficiente y moderno. Precio: $299.000</p>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x200?text=Lavadora" alt="Lavadora">
+                <h3>Lavadora Samsung</h3>
+                <p>8kg, con funciones inteligentes. Precio: $199.000</p>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/300x200?text=Microondas" alt="Microondas">
+                <h3>Microondas Panasonic</h3>
+                <p>Potencia de 1000W, fácil de usar. Precio: $49.000</p>
+            </div>
+            <!-- Agrega más productos aquí -->
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto y Ubicación</h2>
+        <p>Dirección: Calle 27 con 5, Talca, Chile</p>
+        <p>Teléfono: +56 9 1234 5678</p>
+        <p>Email: info@tiendatalca.cl</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.123456789!2d-71.2489!3d-35.4264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDI1JzM1LjAiUyA3McKwMTQnNTYuNCI!5e0!3m2!1ses!2scl!4v1234567890123!5m2!1ses!2scl" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <footer>
+        <p>&copy; 2023 Tienda de Electrodomésticos Talca. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
